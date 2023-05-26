@@ -12,8 +12,8 @@ import com.example.demo.bean.Employee;
 public class RegController {
 	@GetMapping("/allEmp")
 	public List<Employee> getAllEMp() {
-		List<Employee> empList = Arrays.asList(new Employee(1001, "Srini", "dev"), new Employee(1002, "Srini", "dev"),
-				new Employee(1003, "Srini", "dev"));
+		List<Employee> empList = Arrays.asList(new Employee(1001, "Sri", "DEV"), new Employee(1002, "Sai", "CTO"),
+				new Employee(1005, "Riya", "CEO"));
 		return empList;
 
 	}
